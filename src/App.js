@@ -2,6 +2,7 @@ import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Login from './components/Login';
 import './App.css';
 import Hender from './components/Hender';
+import Home from './components/Home';
 
 function App() {
   return (
@@ -9,10 +10,8 @@ function App() {
       <Router>
         <Hender/>
           <Routes>
-            {/* <Route exact path="/" >
-              <Login />
-            </Route> */}
             <Route  path="/" element={<Login />} />
+            <Route  path="/home" element={<Home />} />
           </Routes>
       </Router>
       
