@@ -11,7 +11,6 @@ const Hender = () => {
 
     const dispatch = useDispatch();
     const navigate = useNavigate(); // eslint-disable-next-line
-    // const history = useHistory(); // eslint-disable-next-line
     const userName = useSelector(selectUserName);
     const userPhoto = useSelector(selectUserPhoto);
 
@@ -199,8 +198,50 @@ const NavMenu = styled.div`
 
 
 
+//   @media (max-width: 768px) {
+//     display: flex; 
+//   }
+
+  @media (max-width: 1024px) {
+    margin-left: 10px;
+    a {
+      padding: 0px 8px;
+
+      span {
+        font-size: 11px;
+        letter-spacing: 1.2px;
+      }
+    }
+  }
+
   @media (max-width: 768px) {
-    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px;
+    a {
+      padding: 4px 8px;
+
+      img {
+        height: 18px;
+        min-width: 18px;
+      }
+
+      span {
+        font-size: 10px;
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    flex-direction: column;
+    align-items: center;
+
+    a {
+      padding: 6px 0;
+      span {
+        font-size: 9px;
+      }
+    }
   }
   
 `
