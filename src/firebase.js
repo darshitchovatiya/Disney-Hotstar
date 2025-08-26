@@ -28,14 +28,24 @@ import { getAuth, GoogleAuthProvider } from "firebase/auth"; // Import Auth and 
 import { getAnalytics } from "firebase/analytics"; // Import Analytics
 import { getStorage } from "firebase/storage"; // Import Storage
 
+// const firebaseConfig = {
+//     apiKey: "AIzaSyBnry1cdZ2geUgR1w9oAhEE2gB20nveXtY",
+//     authDomain: "disneyplus-app-bb79c.firebaseapp.com",
+//     projectId: "disneyplus-app-bb79c",
+//     storageBucket: "disneyplus-app-bb79c.firebasestorage.app",
+//     messagingSenderId: "539495659114",
+//     appId: "1:539495659114:web:92b2b8fee75f4db40cfc13",
+//     measurementId: "G-0XGY4MWRKG"
+// };
+
 const firebaseConfig = {
-    apiKey: "AIzaSyBnry1cdZ2geUgR1w9oAhEE2gB20nveXtY",
-    authDomain: "disneyplus-app-bb79c.firebaseapp.com",
-    projectId: "disneyplus-app-bb79c",
-    storageBucket: "disneyplus-app-bb79c.firebasestorage.app",
-    messagingSenderId: "539495659114",
-    appId: "1:539495659114:web:92b2b8fee75f4db40cfc13",
-    measurementId: "G-0XGY4MWRKG"
+  apiKey: "AIzaSyBnry1cdZ2geUgR1w9oAhEE2gB20nveXtY",
+  authDomain: "disneyplus-app-bb79c.firebaseapp.com",
+  projectId: "disneyplus-app-bb79c",
+  storageBucket: "disneyplus-app-bb79c.firebasestorage.app",
+  messagingSenderId: "539495659114",
+  appId: "1:539495659114:web:daf020bc4c5685c10cfc13",
+  measurementId: "G-M01HEN9ZPW"
 };
 
 // Initialize Firebase
